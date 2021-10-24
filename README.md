@@ -7,6 +7,7 @@
 **Contains the automated tests**
 
 I used the library "Jest" to operate them
+
 __How to run the tests ?__
 1. Clone the project
 2. run the command `npm install` in the project directory
