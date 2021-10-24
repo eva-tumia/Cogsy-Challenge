@@ -11,3 +11,5 @@ I used the library "Jest" to operate them
 1. Clone the project
 2. run the command `npm install` in the project directory
 3. run the command `jest` in the project directory
+
+**If you encounter a problem running the command ```jest``` try to run the command ````npm test``` instead**
