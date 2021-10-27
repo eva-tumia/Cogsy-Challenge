@@ -17,6 +17,7 @@ function toFlatArray(array){
     return toFlatArrayRecV1(array);
 }
 
+//Solution 1
 function toFlatArrayRecV1(array){
     return array.reduce((flatArray, current)=>{
         if(Number.isInteger(current)){
@@ -32,6 +33,7 @@ function toFlatArrayRecV1(array){
     },[])
 }
 
+//Solution 2
 function toFlatArrayRecV2(array){
     return array.reduce((flatArray, current)=>{
         if((!Number.isInteger(current)) && !Array.isArray(current))
