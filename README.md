@@ -11,7 +11,7 @@
   - toFlatArrayRecV1() uses reduce() and keeps the same structure as the first resolution in index.js
   - toFlatArrayRecV2() uses reduce() and presents another, more condensed solution
 
-## tests/index.test.js
+## tests/index.test.js && tests/refactored.test.js
 **Contains the automated tests**
 
 I used the library "Jest" to operate them
