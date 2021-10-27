@@ -11,13 +11,13 @@ A few notes, please:
 
 */
 
+//Solution 1
 function toFlatArray(array){
     if(!Array.isArray(array))
         throw new Error('Input incorrect !');
     return toFlatArrayRecV1(array);
 }
 
-//Solution 1
 function toFlatArrayRecV1(array){
     return array.reduce((flatArray, current)=>{
         if(Number.isInteger(current)){
